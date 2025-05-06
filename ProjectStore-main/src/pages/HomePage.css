@@ -1,0 +1,263 @@
+.img-banner-home {
+  width: 100vw;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  opacity: 0.8; /* שקיפות לתמונה */
+  margin-bottom: 40px;
+}
+
+.img-banner-about {
+  margin: 100px auto 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  margin-bottom: 10px;
+  opacity: 0.8; /* שקיפות לתמונה */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 2px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.img-item {
+  text-align: center;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.img-banner {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 100px;
+  opacity: 0.8; /* שקיפות לתמונה */
+}
+
+.img-text {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ביטול אנימציה על hover */
+.img-item:hover {
+  transform: none;
+  box-shadow: none;
+  animation: none;
+}
+
+/* עיגול מסתובב */
+.circle-container {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%, -50%) scale(1.3);
+  z-index: -1;
+}
+
+.rotating-circle {
+  width: 280px;
+  height: 280px;
+  display: block;
+  margin: auto;
+  animation: none;
+}
+
+.circle-text {
+  font-size: 8px;
+  fill: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* קונטיינר לעיגולים */
+.images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+/* קופסה לתמונה בודדת */
+.image-box {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.img-banner-circle {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  object-fit: cover;
+  /* opacity: 0.8; שקיפות  */
+}
+
+/* קונטיינר הקטגוריות */
+.floating-category-menu {
+  background-color: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+
+.home-nav-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.home-nav-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.home-nav-button:hover .icon {
+  transform: translateX(5px);
+}
+
+/* כפתור בצד ימין */
+.button-right {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+/* כפתור בצד שמאל */
+.button-left {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+/* תמונות על כל הרוחב */
+.img-banner-full {
+  width: 100vw;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  /* opacity: 0.8;  */
+  margin-bottom: 40px;
+}
+
+
+.image-with-button.third img {
+  height: 50vh;
+  object-fit: cover;
+  /* opacity: 0.8;  */
+}
+
+/* קונטיינר לכל אחת מהתמונות עם כפתור */
+.image-with-button {
+  position: relative;
+  width: 100vw;
+  margin-bottom: 40px;
+}
+
+/* עיצוב כללי של כפתורים */
+/* כפתור שדרוג */
+.side-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(135deg, #00cfff, #5bc0ff);
+  color: white;
+  border: none;
+  padding: 30px 60px; /* גודל גדול יותר */
+  font-size: 24px; /* גודל טקסט גדול יותר */
+  font-weight: bold;
+  border-radius: 40px; /* קצוות מעוגלים */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 1;
+  animation: bounce 2s infinite; /* אנימציה של קפיצה */
+}
+
+/* אנימציה של קפיצה */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+/* מיקום כפתורים */
+.image-with-button.right .side-button {
+  right: 10%;  /* קרוב יותר לקצה */
+}
+
+.image-with-button.left .side-button {
+  left: 10%;  /* קרוב יותר לקצה */
+}
+
+/* כפתור בהובר */
+.side-button:hover {
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.side-button:active {
+  transform: translateY(-50%) scale(0.95);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+.home-nav-button {
+  background: linear-gradient(135deg, #00cfff, #5bc0ff);
+  color: white;
+  border: none;
+  padding: 30px 50px; /* הגדלתי את הגודל */
+  font-size: 26px; /* הגדלתי את גודל הטקסט */
+  font-weight: bold;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: bounce 2s infinite; /* הוספתי אנימציה של תזוזה */
+}

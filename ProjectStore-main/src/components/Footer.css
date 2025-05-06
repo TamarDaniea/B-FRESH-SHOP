@@ -1,0 +1,87 @@
+.footer {
+  width: 100vw; /* מבטיח שהפוטר יתפרס על כל רוחב הדף */
+  position: relative;
+  left: 0; 
+  right: 0;
+  padding-top: 10px; /* 🔽 הקטנת הרווח העליון */
+  padding-bottom: 10px; /* 🔽 הקטנת הרווח התחתון */
+  background-color: #f2f2f2; /* 🎨 צבע רקע בהיר */
+  color: #000; /* 🎨 טקסט שחור */
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px; 
+  text-align: right; /* מיישר את כל הטקסטים לימין */
+}
+
+.footer-column h3 {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #000; /* 🎨 כותרות שחורות */
+}
+
+.footer-column p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #000; /* 🎨 טקסטים שחורים */
+}
+
+.logo-footer {
+  width: 50%;
+}
+
+.icon-gif {
+  width: 25px; 
+  height: 25px;
+  margin-left: 20px;
+  vertical-align: middle;
+  filter: invert(0); /* ❗ אם האייקונים בלבן, זה יהפוך אותם לשחור */
+}
+
+/* ✅ בטלפונים, מסדר את התוכן יפה */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.icon-gif {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  vertical-align: middle;
+  filter: invert(1); /* משנה צבעים - הופך לבן לשחור */
+}
+
+.branch-link {
+  color: #333; /* צבע טקסט כהה */
+  font-size: 18px; /* גודל גופן */
+  text-decoration: none; /* מסיר את הקו התחתון */
+  font-weight: bold; /* הופך את הטקסט לעבה */
+  transition: all 0.3s ease; /* שינוי חלק במעבר */
+}
+
+.branch-link:hover {
+  color: #007BFF; /* צבע טקסט כחול כאשר העכבר על הקישור */
+  text-decoration: underline; /* מוסיף קו תחתון במעבר */
+}
+
+.icon-gif {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px; /* רווח קטן בין הטקסט לאיקון */
+  vertical-align: middle;
+}

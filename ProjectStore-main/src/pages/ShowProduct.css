@@ -1,0 +1,109 @@
+/* עיצוב רקע כללי */
+.overlay {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* קונטיינר מוצר */
+.product-container {
+    position: relative;
+    width: 400px; /* היה 500px */
+    height: 400px; /* היה 500px */
+    background: rgba(255, 255, 255, 0.85); 
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px; /* היה 40px */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* תמונת המוצר */
+.product-image {
+    width: 120px; /* היה 150px */
+    height: 120px; /* היה 150px */
+    object-fit: cover;
+    position: absolute;
+    right: calc(50% - 60px); /* מרכזים */
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background: transparent;
+    z-index: 2;
+}
+
+/* פרטי המוצר */
+.product-details {
+    margin-top: 120px; /* היה 140px */
+    text-align: center;
+    width: 100%;
+}
+
+.product-title {
+    font-size: 24px; /* היה 28px */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-category {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* כפתור סגירה */
+.close-button {
+    position: absolute;
+    top: 80px;
+    left: 60px; /* במקום right */
+    background: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+/* כפתורים */
+.action-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.manager-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
