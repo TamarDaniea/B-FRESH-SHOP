@@ -92,4 +92,4 @@
 ### Clone את הריפוזיטורי:
 
 ```bash
-git clone https://github.com/your-username/b-fresh.git
+git clone https://github.com/TamarDaniea/b-fresh.git
