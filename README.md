@@ -71,7 +71,7 @@
 ## 📸 תמונות מהפרויקט
 
 ### עמוד הבית  
-![Home](screenshots/home.png)
+![Home](screenshots/home.jpg)
 
 ### עמוד התפריט  
 ![Menu](screenshots/menu.png)
