@@ -71,7 +71,7 @@
 ## 📸 תמונות מהפרויקט
 
 ### עמוד הבית  
-![Home](screenshots/b-fresh  (1).PNG)
+![Home](screenshots/b-fresh%(1).PNG)
 ![Home](screenshots/b-fresh  (2).PNG)
 ![Home](screenshots/b-fresh  (3).PNG)
 
