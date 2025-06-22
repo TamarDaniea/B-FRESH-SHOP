@@ -71,19 +71,44 @@
 ## 📸 תמונות מהפרויקט
 
 ### עמוד הבית  
-![Home](screenshots/home.jpg)
+![Home](screenshots/b-fresh  (1).PNG)
+![Home](screenshots/b-fresh  (2).PNG)
+![Home](screenshots/b-fresh  (3).PNG)
 
 ### עמוד התפריט  
-![Menu](screenshots/menu.png)
-
+![Menu](screenshots/b-fresh  (7).PNG)
+![Menu](screenshots/b-fresh  (8).PNG)
+### עמוד אודות   
+![about](screenshots/b-fresh  (6).PNG)
+![about](screenshots/b-fresh  (5).PNG)
+![about](screenshots/b-fresh  (4).PNG)
+![about](screenshots/B-FRESH (9).PNG)
+![about](screenshots/B-FRESH (10).PNG)
+![about](screenshots/B-FRESH (11).PNG)
 ### עגלת קניות  
-![Cart](screenshots/cart.png)
+![Cart](screenshots/B-FRESH (5).PNG)
+![Cart](screenshots/B-FRESH (12).PNG)
+### תשלום
 
+![Cart](screenshots/B-FRESH (15).PNG)
+![Cart](screenshots/B-FRESH (16).PNG)
+![Cart](screenshots/B-FRESH (1).PNG)
+![Cart](screenshots/B-FRESH (2).PNG)
 ### עמוד ההזמנות שלי  
-![Orders](screenshots/orders.png)
-
+![Orders](screenshots/B-FRESH (3).PNG)
+![Orders](screenshots/B-FRESH (4).PNG)
+![Orders](screenshots/B-FRESH (6).PNG)
+### איתור סניפים   
+![brunches](screenshots/B-FRESH (7).PNG)
+![brunches](screenshots/B-FRESH (8).PNG)
 ### עמוד הרשמה / כניסה  
-![Login](screenshots/login.png)
+![Login](screenshots/B-FRESH (13).PNG)
+![Login](screenshots/B-FRESH (14).PNG)
+
+
+לצפייה בהדגמה של הפרויקט [לחצו כאן](https://drive.google.com/file/d/1Cr1nPI06Rxj4ByaXOvOSlpRU6rLYjz2s/view?usp=sharing)
+
+
 
 ---
 
