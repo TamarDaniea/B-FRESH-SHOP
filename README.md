@@ -71,17 +71,17 @@
 ## 📸 תמונות מהפרויקט
 
 ### עמוד הבית  
-![Home](screenshots/b-fresh%(1).PNG)
-![Home](screenshots/b-fresh  (2).PNG)
-![Home](screenshots/b-fresh  (3).PNG)
+![Home](screenshots/1.PNG)
+![Home](screenshots/2.PNG)
+![Home](screenshots/3.PNG)
 
 ### עמוד התפריט  
-![Menu](screenshots/b-fresh  (7).PNG)
-![Menu](screenshots/b-fresh  (8).PNG)
+![Menu](screenshots/7.PNG)
+![Menu](screenshots/8.PNG)
 ### עמוד אודות   
-![about](screenshots/b-fresh  (6).PNG)
-![about](screenshots/b-fresh  (5).PNG)
-![about](screenshots/b-fresh  (4).PNG)
+![about](screenshots/6.PNG)
+![about](screenshots/5.PNG)
+![about](screenshots/4.PNG)
 ![about](screenshots/B-FRESH (9).PNG)
 ![about](screenshots/B-FRESH (10).PNG)
 ![about](screenshots/B-FRESH (11).PNG)
