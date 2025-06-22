@@ -67,43 +67,47 @@
 - **Version Control:** Git + GitHub
 
 ---
-
 ## 📸 תמונות מהפרויקט
 
 ### עמוד הבית  
-![Home](screenshots/1.PNG)
-![Home](screenshots/2.PNG)
-![Home](screenshots/3.PNG)
+![Home](screenshots/1.png)  
+![Home](screenshots/2.png)  
+![Home](screenshots/3.png)  
 
 ### עמוד התפריט  
-![Menu](screenshots/7.PNG)
-![Menu](screenshots/8.PNG)
-### עמוד אודות   
-![about](screenshots/6.PNG)
-![about](screenshots/5.PNG)
-![about](screenshots/4.PNG)
-![about](screenshots/9.PNG)
-![about](screenshots/10.PNG)
-![about](screenshots/11.PNG)
-### עגלת קניות  
-![Cart](screenshots/b5.PNG)
-![Cart](screenshots/12.PNG)
-### תשלום
+![Menu](screenshots/7.png)  
+![Menu](screenshots/8.png)  
 
-![Cart](screenshots/15.PNG)
-![Cart](screenshots/16.PNG)
-![Cart](screenshots/b1.PNG)
-![Cart](screenshots/b2.PNG)
+### עמוד אודות   
+![about](screenshots/6.png)  
+![about](screenshots/5.png)  
+![about](screenshots/4.png)  
+![about](screenshots/9.png)  
+![about](screenshots/10.png)  
+![about](screenshots/11.png)  
+
+### עגלת קניות  
+![Cart](screenshots/b5.png)  
+![Cart](screenshots/12.png)  
+
+### תשלום  
+![Cart](screenshots/15.png)  
+![Cart](screenshots/16.png)  
+![Cart](screenshots/b1.png)  
+![Cart](screenshots/b2.png)  
+
 ### עמוד ההזמנות שלי  
-![Orders](screenshots/b3.PNG)
-![Orders](screenshots/b4.PNG)
-![Orders](screenshots/b6.PNG)
+![Orders](screenshots/b3.png)  
+![Orders](screenshots/b4.png)  
+![Orders](screenshots/b6.png)  
+
 ### איתור סניפים   
-![brunches](screenshots/b7.PNG)
-![brunches](screenshots/b8.PNG)
+![brunches](screenshots/b7.png)  
+![brunches](screenshots/b8.png)  
+
 ### עמוד הרשמה / כניסה  
-![Login](screenshots/13.PNG)
-![Login](screenshots/14.PNG)
+![Login](screenshots/13.png)  
+![Login](screenshots/14.png)  
 
 
 לצפייה בהדגמה של הפרויקט [לחצו כאן](https://drive.google.com/file/d/1Cr1nPI06Rxj4ByaXOvOSlpRU6rLYjz2s/view?usp=sharing)
